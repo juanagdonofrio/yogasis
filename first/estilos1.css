@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.banner{
+    font-size: larger;
+    text-align: center;
+    height: 10vh;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    font-weight: 600;
+    font-size: larger;
+    padding-left: 4rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(151, 111, 64);
+}
+
+.description{
+    background: linear-gradient(109.6deg, rgb(253, 223, 168) 11.2%, rgb(246, 165, 254) 100.2%);
+    padding: 20px;
+    text-align: center;
+
+}
+
+#contenedor{
+    width: 100%;
+    float: left;
+}
+
+.contenido{
+    background: radial-gradient(circle at 10% 20%, rgb(248, 213, 214) 0%, rgb(243, 242, 229) 90%);
+    padding: 20px;
+    height: 180vh;
+
+}
+
+.estilos{
+    /* background-color: #faf9d6; */
+    width: 70%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.descripcion-caja{
+    /* background-color: #faf9d6; */
+    float: left;
+    width: 33%;
+    padding: 15px;
+    text-align: center;
+}
+
+.imagen-caja{
+    width: 33%;
+    background-color: #f1efb1ff;
+    padding: 20px;
+}
+
+.imagen-caja img{
+    width: 100%;
+}
+
+.otrosservicios{
+    background-color: #fbd99a;
+    padding: 2rem;
+    width: 40%;
+    height: 90vh;
+    float: center;
+}
+
+.otrosservicios li{
+    list-style: none;
+}
+
+.masinfo{
+    background-color: #e7cef4;
+    padding: 2rem;
+    width: 40%;
+    height: 90vh;
+    float: right;
+}
+
+.masinfo li{
+    list-style: none;
+}
+
+.footer{
+    background-color: #eeddf3;
+    height: 15vh;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    clear: both;
+    margin: 10px;
+}
+
+.nosotros{
+    background-color: #febaab;
+    padding: 20px;
+    text-align: justify;
+}
+
+.contacto{
+    background-color: #febaab;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+.tienda{
+    background-color: #febaab;
+    padding: 20px;
+    text-align: justify;
+}
+
+.footers{
+    background-color: #eeddf3;
+    height: 15vh;
+    padding-top: 10px;
+    clear: both;
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
+}
