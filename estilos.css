@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+   }
+/* MOBILE FIRST */
+/* Estilos generales */
+html{
+    scroll-behavior:smooth;
+}
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+@font-face { 
+    font-family: TAN-PEARL; 
+    src: url(TAN-PEARL.woff2); 
+}   
+h1 { font-size: 56px; }
+h2 { font-size: 29px; }
+h3 { font-size: 25px; }
+h4 { font-size: 6vw; }
+h5 { font-size: 4vw; }
+h6 { font-size: 3vw; }
+p {
+    font-size: 16px;
+    line-height: 1.7em;
+}
+.btn {
+    background-color: none;
+    color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 25px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;  
+}
+.btn:hover{
+    background-color: rgba(255,255,255,0.5);  
+}
+.btn2{
+    background-color: #ffffff00;
+    color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 25px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;  
+    margin-top: 20px;
+}
+.btn2:hover{
+    background-color: rgba(255,255,255,0.5);  
+}
+/* <p> pie */
+.textopie {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: #7a6d4e;
+}
+
+/*  menú linea */
+.contenedor-menu{
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    background-color: azure;
+}
+#menu li{
+    float: left;
+    margin-left: auto;
+}
+#menu li a {
+    color:#7a6d4e; 
+    font-weight: 500;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a {
+    display: block;
+    text-align: center;
+    padding: 14px 6px;
+    font-size: 16px;
+}
+/* a:hover {
+    background-color: #70c3a275;
+    color:#ffffff;
+    font-weight: 500;
+} */
+
+/* header */
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: url('img/oasis.gif');
+    background-blend-mode: overlay;
+    background-color: #5e5c57;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+ }
+.yogasis{
+    font-family: TAN-PEARL; 
+    padding-bottom: 20px;
+}
+.oasis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+
+/* Descripción */
+#descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #7a6d4e;
+    background: linear-gradient(0deg, #f7f7f7 23.8%, #fcdddd 92%);
+}
+#descripcion h2 {
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.linea {
+    padding-top: 20px;
+}
+.linea img{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 12px 0 rgba(82, 79, 79, 0.3);
+    text-align: center;
+}
+.caja-descripcion {
+    width: 100%;
+    padding: 25px;
+}
+.caja-descripcion h4{
+    padding-top: 25px;
+    font-weight: 500;
+    color: #7a6d4e;
+}
+.caja-descripcion p{
+    padding-top: 20px;
+}
+
+  /* Quienes somos */
+#quienes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #f7f7f7 35%, #fcdddd 100%);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.imagen-quienes {
+    width: 100%;
+    padding: 10px 30px;
+}
+.imagen-quienes img {
+    width: 100%;
+    height: auto;
+    padding-bottom: auto;
+}
+.texto-quienes {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    text-align: justify;
+    color: #7a6d4e;
+}
+.display-2  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-quienes p {
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  /* Pie de Página */
+#pie {
+    background: url('img/piedepagina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pie h1 {
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: 600
+}
+#pie p {
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+  /* Footer */
+#footer {
+    height: 8vh;
+    background: #BC8C6A;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.contactoinput{
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #ffffffa5;
+    width: 70%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+/*media queries*/
+@media only screen and (min-width: 576px) {
+li a{
+    padding: 14px 30px;
+}
+.yogasis{
+    font-size: 80px;
+}
+.oasis{
+    font-size: 30px;
+}
+.display-2{
+    font-size: 35px;
+}
+#descripcion .display-3{
+    font-size: 25px;
+}
+#descripcion h4{
+    font-size: 30px;
+}
+#descripcion p{
+    font-size: 18px;
+    padding: 10px 30px;
+}
+.linea img{
+    width: 40%;
+}
+.imagen-quienes img{
+    width: 60%;
+}
+.imagen-quienes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.texto-quienes p{
+    font-size: 18px;
+    padding: 10px 50px;
+}
+#pie{
+    height: 92vh;
+}
+#pie .contenedor{
+    height: 92vh;
+}
+#pie .display-1{
+    font-size: 55px;
+    padding-top: 35px;
+}
+#pie p{
+    font-size: 17px;
+    padding: 30px 30px;
+    padding-bottom: 40px;
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+#nav{
+    height: 8vh;
+}
+#menu{
+    font-size: 20px;
+    padding: 0px 50px;
+    height: 8vh;
+}
+li a{
+    padding: 14px 30px;
+    height: 8vh;
+}
+.yogasis{
+    font-size: 80px;
+}
+.oasis{
+    font-size: 30px;
+}
+.btn{
+    font-size: 15px;
+    border-width: 3px;
+}
+.display-2{
+    font-size: 40px;
+}
+#descripcion .display-3{
+    font-size: 25px;
+}
+#descripcion h4{
+    font-size: 30px;
+}
+#descripcion p{
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.linea img{
+    width: 40%;
+}
+.imagen-quienes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.imagen-quienes img{
+    width: 60%;
+}
+.texto-quienes p{
+    font-size: 20px;
+    padding: 10px 50px;
+}
+#pie{
+    height: 92vh;
+}
+#pie .contenedor{
+    height: 92vh;
+}
+#pie .display-1{
+    font-size: 60px;
+    padding-top: 35px;
+}
+#pie p{
+    font-size: 20px;
+    padding: 30px 30px;
+    padding-bottom: 40px;
+}
+#footer{
+    height: 8vh;
+}
+#footer p{
+    font-size: 16px;
+}
+}
+
+@media only screen and (min-width: 1024px){
+.yogasis{
+    font-size: 80px;
+}
+.oasis{
+    font-size: 30px;
+}
+.linea {
+    padding-top: 20px;
+}
+.linea img{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 12px 0 rgba(82, 79, 79, 0.3);
+    text-align: center;
+}      
+.caja-descripcion {
+    float: left;
+    width: 33%;
+    padding: 20px;
+}   
+.caja-descripcion h4{
+    padding-top: 25px;
+    font-weight: 500;
+}     
+.caja-descripcion p{
+    padding-top: 20px;
+}
+.imagen-quienes img{
+    width: 40%;
+}
+.texto-quienes p{
+    font-size: 18px;
+    padding: 10px 100px;
+}
+#pie .display-1{
+    font-size: 80px;
+}
+#pie p{
+    font-size: 17px;
+}
+}
+
+
+@media only screen and (min-width: 1440px){
+#menu li{
+    padding: 0px 50px;
+    height: 8vh;
+}
+li a{
+    font-size: 20px;
+    padding: 14px 30px;
+    height: 8vh;
+}
+.imagen-quienes {
+    align-items: center;
+    float: right;
+    width: 40%;
+    padding: 30px;
+  }  
+.imagen-quienes img {
+    width: 90%;
+    height: auto;
+}
+.texto-quienes {
+    float: left;
+    width: 60%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    color: #7a6d4e;
+}
+.texto-quienes h3{
+    text-align: center;
+}
+.texto-quienes p {
+    padding-top: 20px;
+}
+#pie .display-1{
+    font-size: 85px;
+    padding: 20px 80px;
+    padding-top: 50px;
+}
+#pie p{
+    font-size: 18px;
+    padding: 10px 150px;
+    padding-bottom: 40px;
+}
+#footer p{
+    font-size: 22px;
+}
+}
